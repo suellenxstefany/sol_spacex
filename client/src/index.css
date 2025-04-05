@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased text-foreground;
+    background-color: #F6F3EA; /* soft beige background */
+  }
+  
+  /* Custom font classes */
+  .font-dancing {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
